@@ -43,6 +43,8 @@ dependencies:
   google_fonts: ^3.0.1
   table_calendar: ^3.0.8
   fl_chart: ^0.55.2
+  external_app_launcher:
+
 dev_dependencies:
   flutter_test:
     sdk: flutter

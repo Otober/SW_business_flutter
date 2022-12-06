@@ -5,6 +5,7 @@ import 'package:parkmingyun/postPage.dart';
 import 'package:parkmingyun/screens/home_view.dart';
 import 'package:parkmingyun/screens/welcom_view.dart';
 import 'package:parkmingyun/userInfo/userPage.dart';
+import 'package:parkmingyun/coaching/coaching.dart';
 
 import 'config/bottomBar.dart';
 import 'forTest/testCRUD.dart';
@@ -28,6 +29,7 @@ class _HomeScreenState extends State<HomeScreen> {
   static const List<Widget> _widgetOptions = <Widget>[
     WelcomView(),
     postPage(),
+    coaching(),
     UserPage(),
   ];
 

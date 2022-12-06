@@ -27,6 +27,10 @@ class _BottomBarState extends State<BottomBar> {
           label: '게시판',
         ),
         BottomNavigationBarItem(
+          icon: Icon(Icons.health_and_safety),
+          label: '코칭',
+        ),
+        BottomNavigationBarItem(
           icon: Icon(Icons.people_sharp),
           label: '유저화면',
         ),
